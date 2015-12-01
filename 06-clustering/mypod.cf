@@ -1,0 +1,4 @@
+pod "mypod" cluster {
+    server address="127.0.0.1:8085";
+    server address="127.0.0.1:8086";
+}
