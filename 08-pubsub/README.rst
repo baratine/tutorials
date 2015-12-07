@@ -6,7 +6,7 @@ Tutorial: Publish/Subscribe
 
 Prerequisites
 -------------
-This exmaple will show you how to build a publish/subscribe service for Java
+This example will show you how to build a publish/subscribe service for Java
 and JavaScript clients.
 
 
@@ -250,7 +250,7 @@ We can publish to our service with::
 
 Conclusion
 ----------
-You have just built a publish/subscribe service that serves a cross-platform of
+You have just built a publish/subscribe service that serves cross-platform
 clients.  You may continue below for more advanced cases.
 
 
@@ -258,7 +258,7 @@ Alternative to PubSubService
 ----------------------------
 Instead of delegating to ``PubSubService``, you can manage the subscriptions
 yourself, which are the ``ResultStream`` objects.  You may save the
-``ResultStream`` in a List and check to see if the client has cancelled it (todo: add doc)
+``ResultStream`` in a list and check to see if the client has cancelled it (todo: add doc)
 or disconnected by calling ``ResultStream.isCancelled()``::
 
     @Service("public:///tweet")
